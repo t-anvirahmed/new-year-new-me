@@ -49,3 +49,46 @@
     background: #d94a1e;
     color: #ffe5d0;
 }
+
+/* failure section styles */
+.failure-content {
+    width: 72%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 144px auto;
+    gap: 85px;
+}
+
+.failure-content .failure-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-content .failure-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.failure-content .failure-text .failure-list {
+    list-style: none;
+    padding: 0;
+}
+
+.failure-content .failure-text .failure-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    color: #444343;
+    font-size: 16px;
+}
+
+.failure-content .failure-text .failure-list li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #22c55e;
+}
