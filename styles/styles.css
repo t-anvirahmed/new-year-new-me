@@ -3,6 +3,11 @@
     font-family: "Work Sans", sans-serif;
 }
 
+/* .container {
+    width: 72%;
+    max-width: 1200px;
+} */
+
 /* banner section styles */
 .banner-container {
     background-image: url('../images/banner/banner1.png');
@@ -52,8 +57,7 @@
 
 /* failure section styles */
 .failure-content {
-    width: 72%;
-    max-width: 1200px;
+    max-width: 1240px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,4 +95,87 @@
     left: 0;
     top: 0;
     color: #22c55e;
+}
+
+.my-plans {
+    text-align: center;
+}
+
+.my-plans h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plans-container {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.my-plans-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-plans-container p {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.my-plans-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.positive-mind-card {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    margin: 130px auto;
+    max-width: 1140px;
+    height: 300px;
+}
+
+.positive-mind-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.positive-mind-content h2 {
+    width: 70%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.positive-mind-content button {
+    background: #fff;
+    color: #F15B2A;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.positive-mind-content button:hover {
+    background: #ffe5d0;
+    color: #d94a1e;
 }
